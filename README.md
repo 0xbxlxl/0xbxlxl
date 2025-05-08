@@ -17,8 +17,8 @@ I’m an aspiring bioinfmormatician from Lebanon currently residing in Germany, 
 - 🚀 Learning about cutting-edge tech
 - ☕ Fueling creativity with strong coffee!
 
-> “<The only way to do great work is to love what you do.>”  
-> — *<Steve Jobs>*
+> “The only way to do great work is to love what you do.”  
+> — Steve Jobs
 
 ---
 

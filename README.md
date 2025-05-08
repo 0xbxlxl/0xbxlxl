@@ -11,7 +11,7 @@
 </p>
 
 ## About Me
-I’m an aspiring bioinfmormatician from Lebanon who loves:
+I’m an aspiring bioinfmormatician from Lebanon currently residing in Germany, who loves:
 - 🎨 Crafting elegant code & beautiful UIs
 - 🤖 Exploring AI, machine learning, and the future in bioinformatics
 - 🚀 Learning about cutting-edge tech

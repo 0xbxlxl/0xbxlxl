@@ -7,7 +7,7 @@
 # Hi, I’m 0xbxlxl! 👋
 
 <p align="center">
-  <img src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif" alt="Nyan Cat Banner" width="100%" />
+  <img src="[https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajl3YmFhbG5neGY1MGxlcHlrbzg3aGRjaGRneTltcXY0ZXNmbTE3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VGuAZNdkPUpEY/giphy.gif)" alt="Nyan Cat Banner" width="100%" />
 </p>
 
 ## About Me

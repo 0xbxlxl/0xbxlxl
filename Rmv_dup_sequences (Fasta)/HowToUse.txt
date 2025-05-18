@@ -1,0 +1,67 @@
+============================================================
+           How to Use the remove_duplicates.py Script
+============================================================
+
+📌 Description:
+This script removes duplicate sequences from a FASTA file and creates a new FASTA file 
+containing only the unique sequences. Duplicate counts are appended to the headers in the format "_Nx",
+where N is the number of times the sequence appeared in the original file.
+
+------------------------------------------------------------
+🧾 Requirements:
+- Python installed
+- Script file: remove_duplicates.py
+- A FASTA file (.fa.txt, .fas, .fasta, etc.) to clean
+
+------------------------------------------------------------
+▶️ How to Run the Script:
+
+Open a terminal and navigate to the folder containing the script and your FASTA file.
+
+Use the following command format:
+
+    python remove_duplicates.py -i <input_file> [-o <output_file>]
+
+🔹 Required:
+    -i  or  --input    : The input FASTA file with possible duplicates
+
+🔹 Optional:
+    -o  or  --output   : The name of the output file (if not given, one will be generated automatically)
+
+------------------------------------------------------------
+📦 Examples:
+
+Example 1 – Let the script generate the output file name:
+    python3 remove_duplicates.py -i duplicate_sequences.fasta
+
+Output will be:
+    duplicate_sequences_nodup.fasta
+
+Example 2 – Specify a custom output file:
+    python3 remove_duplicates.py -i duplicate_sequences.fasta -o cleaned_output.fasta
+
+------------------------------------------------------------
+📊 Output:
+- A new FASTA file with only unique sequences
+- Each header shows how many times the sequence occurred, e.g.:
+    >Seq1_2x
+    ATGCGTA
+
+- Summary is printed in the terminal:
+    File processed: duplicate_sequences.fasta
+    Original sequences: 20
+    Unique sequences: 12
+    Output written to: cleaned_output.fasta
+
+------------------------------------------------------------
+📌 Notes:
+- The script treats sequences in a **case-insensitive** way.
+  ("ATGCGTA" and "atgcgta" are considered duplicates)
+- Make sure the input file is properly formatted in FASTA format.
+
+------------------------------------------------------------
+👤 Author:
+Bilal Kachir
+Project for Linux and Python for Biologists Course – Final Project
+
+============================================================

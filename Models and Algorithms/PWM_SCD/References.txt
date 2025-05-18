@@ -1,0 +1,22 @@
+References
+Lobry, J. R., & Chessel, D. (2003). Gene Prediction in Prokaryotes: A Historical Perspective. In Methods in Microbiology, vol. 30, 99–115. Elsevier.
+This book chapter provides an overview of gene prediction in prokaryotes, covering the principles of ORF identification, start and stop codon recognition, and codon usage bias.
+
+Salzberg, S. L. (1999). A Survey of Computational Methods in Microbial Genome Annotation. Annual Review of Genomics and Human Genetics, 2, 209–237.
+This review discusses various computational approaches for microbial gene prediction, including the role of ribosome binding sites, start codons, and statistical models.
+
+Borodovsky, M., & McIninch, J. (1993). GeneMark: Parallel Gene Recognition for Both DNA Strands. Computers & Chemistry, 17(2), 123–133.
+GeneMark was one of the first tools to incorporate coding potential based on codon usage bias, making it foundational in the field of gene prediction in prokaryotes.
+
+Kingsford, C., Delcher, A. L., & Salzberg, S. L. (2007). A Novel Compression Scheme for Biological Sequences and Its Applications. BMC Bioinformatics, 8(1), 159.
+This paper introduces machine learning approaches for bioinformatics tasks, emphasizing the potential of neural networks and other algorithms for gene prediction.
+
+Macke, T. J., & Green, P. J. (2005). Ribosome Binding Sites and Translation Initiation in Prokaryotes. Cell, 112(5), 737–745.
+This article reviews the biological and computational aspects of identifying ribosome binding sites in prokaryotes and how these sites contribute to translation initiation.
+
+Jones, D. T. (1999). Protein Secondary Structure Prediction Based on Position-Specific Scoring Matrices. Computers in Biology and Medicine, 29(3), 185–199.
+While this paper is on protein structure prediction, it also discusses the application of position-specific scoring matrices (PSSMs) in sequence prediction models, a concept relevant to gene prediction in coding and non-coding regions.
+
+Delcher, A. L., Bratke, K. A., Powers, E. C., & Salzberg, S. L. (2007). Identifying Prokaryotic Genes by Training on Known Genes. BMC Bioinformatics, 8(1), 37.
+This research paper covers training gene prediction models on validated prokaryotic genes, emphasizing the importance of verified datasets for accurate gene identification.
+

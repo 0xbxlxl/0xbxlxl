@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Page</title>
+    <link rel="stylesheet" href="styleNavbar.css" />
+    <link rel="stylesheet" href="Account.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="NavBar.js"></script>
+    <script src="Account.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="header"></div>
+    </header>
+
+    <!-- Secondary Account Options Panel -->
+    <div class="account-options-panel">
+      <!-- Buttons will be dynamically added here by Account.js -->
+    </div>
+
+    <!-- Account Sections -->
+    <!-- Logout Section -->
+    <div class="logout-section" style="display: none">
+      <!-- Content for logout -->
+      <a href="login.html">Logout</a>
+    </div>
+
+    <!-- Account Info Section -->
+    <div class="account-info-section" style="display: none">
+      <h2>Account Information</h2>
+      <div id="message-container" style="display: none"></div>
+
+      <label>Email:</label>
+      <input type="email" id="email" disabled />
+      <label>First Name:</label>
+      <input type="text" id="fName" />
+      <label>Last Name:</label>
+      <input type="text" id="lName" />
+      <label>Address:</label>
+      <input type="text" id="address" />
+      <label>Apartment Number:</label>
+      <input type="text" id="aptNum" />
+      <label>City:</label>
+      <input type="text" id="city" />
+      <label>State:</label>
+      <input type="text" id="state" />
+      <label>Zip Code:</label>
+      <input type="text" id="zip" />
+      <label>Password (new or change):</label>
+      <input type="password" id="password" />
+      <button
+        class="update-info-btn"
+        id="update-info-btn"
+        style="display: none"
+      >
+        Update Information
+      </button>
+    </div>
+
+    <!-- Cart Section -->
+    <div class="cart-section" style="display: none">
+      <h2 class="bannerCO1">Your Cart</h2>
+      <div class="containerCart">
+        <div class="cart-items-container">
+          <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <hr />
+        <p>
+          Total: <span class="price" style="color: black"><b>$0</b></span>
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <form id="checkout-form">
+                  <label><i class="fa fa-user"></i> First name</label>
+                  <input
+                    type="text"
+                    name="shipFName"
+                    placeholder="Adam"
+                    required
+                  />
+                  <label><i class="fa fa-user"></i> Last name</label>
+                  <input
+                    type="text"
+                    name="shipLName"
+                    placeholder="Adam"
+                    required
+                  />
+                  <label><i class="fa fa-user"></i> Address:</label>
+                  <input
+                    type="text"
+                    name="shipAddress"
+                    placeholder="1234 Main St"
+                    required
+                  />
+                  <label><i class="fa fa-envelope"></i> Apt Number </label>
+                  <input type="text" name="shipAptNum" placeholder="Apt 101" />
+                  <label><i class="fa fa-address-card-o"></i> City</label>
+                  <input
+                    type="text"
+                    name="shipCity"
+                    placeholder="New York"
+                    required
+                  />
+                  <label><i class="fa fa-address-card-o"></i> State</label>
+                  <input
+                    type="text"
+                    name="shipState"
+                    placeholder="NY"
+                    required
+                  />
+                  <label><i class="fa fa-address-card-o"></i> Zipcode</label>
+                  <input
+                    type="text"
+                    name="shipZip"
+                    placeholder="10001"
+                    required
+                  />
+                  <button
+                    class="btn-checkout"
+                    type="submit"
+                    id="checkout-button"
+                  >
+                    Checkout
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <!--
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color: navy"></i>
+                    <i class="fa fa-cc-amex" style="color: blue"></i>
+                    <i class="fa fa-cc-mastercard" style="color: red"></i>
+                    <i class="fa fa-cc-discover" style="color: orange"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input
+                    type="text"
+                    id="cname"
+                    name="cardname"
+                    placeholder="John More Doe"
+                  />
+                  <label for="ccnum">Credit card number</label>
+                  <input
+                    type="text"
+                    id="ccnum"
+                    name="cardnumber"
+                    placeholder="1111-2222-3333-4444"
+                  />
+                  <label for="expmonth">Exp Month</label>
+                  <input
+                    type="text"
+                    id="expmonth"
+                    name="expmonth"
+                    placeholder="September"
+                  />
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input
+                        type="text"
+                        id="expyear"
+                        name="expyear"
+                        placeholder="2018"
+                      />
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352" />
+                    </div>
+                  </div>
+                </div>
+              -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order History Section -->
+    <div class="order-history-section" style="display: none">
+      <h2>Order History</h2>
+      <div id="order-history-list">
+        <!-- Order entries will be populated here dynamically -->
+      </div>
+    </div>
+
+    <!-- Admin Page Section (only for admins) -->
+    <div class="admin-page-section" style="display: none">
+      <h1>Admin Dashboard</h1>
+      <!-- User Management Section -->
+      <div
+        id="admin-user-management"
+        class="admin-section"
+        style="display: none"
+      >
+        <h2>User Management</h2>
+        <div>
+          <label for="searchEmail">Search User by Email:</label>
+          <input type="email" id="searchEmail" placeholder="Enter user email" />
+          <button id="searchUserBtn">Search</button>
+        </div>
+        <div id="userDetails" style="display: none">
+          <h3>User Details</h3>
+          <!-- User details fields will be populated here -->
+          <label>User Email:</label>
+          <input type="text" id="userEmail" placeholder="User Email" />
+          <label>User First Name:</label>
+          <input type="text" id="userFName" placeholder="First Name" />
+          <label>User Last Name:</label>
+          <input type="text" id="userLName" placeholder="Last Name" />
+          <label>User Password:</label>
+          <input type="text" id="userPassword" placeholder="Password" />
+          <label>User Status:</label>
+          <input type="text" id="userStatus" placeholder="Status" />
+          <button id="adminUpdateUserBtn">Update User</button>
+        </div>
+      </div>
+
+      <!-- Delete User Section -->
+      <div>
+        <h3>Delete User</h3>
+        <label>Enter User Email</label>
+        <input type="email" id="deleteUserEmail" />
+        <button id="deleteUserBtn">Delete User</button>
+      </div>
+
+      <!-- Item Management Section -->
+      <div id="item-management" class="admin-section" style="display: none">
+        <h2>Item Management</h2>
+        <div>
+          <label for="newItemName">Add New Item:</label>
+
+          <label>Product ID:</label>
+          <input
+            type="text"
+            id="newItemProductID"
+            placeholder="Enter Product ID"
+          />
+          <label>Item name:</label>
+          <input type="text" id="newItemName" placeholder="Enter Item Name" />
+          <label>Item color:</label>
+          <input type="text" id="newItemColor" placeholder="Enter Color" />
+          <label>Item price:</label>
+          <input type="text" id="newItemPrice" placeholder="Enter Price" />
+          <label>Item size:</label>
+          <input type="text" id="newItemSize" placeholder="Enter Size" />
+          <label>Item stock:</label>
+          <input
+            type="text"
+            id="newItemStock"
+            placeholder="Enter Stock Quantity"
+          />
+          <label>Item description:</label>
+          <input
+            type="text"
+            id="newItemDescription"
+            placeholder="Enter Description"
+          />
+          <label>Item image:</label>
+          <input type="text" id="newItemImage" placeholder="Enter Image URL" />
+          <button id="addItemBtn">Add Item</button>
+        </div>
+        <div>
+          <label for="searchItemID">Update Existing Item:</label>
+          <input type="text" id="searchItemID" placeholder="Enter item ID" />
+          <button id="searchItemBtn">Search Item</button>
+        </div>
+        <div id="itemDetails" style="display: none">
+          <!-- Item details fields will be populated here -->
+          <label>Item Name:</label>
+          <input type="text" id="updateItemName" placeholder="shirt" />
+          <label>Item Color:</label>
+          <input type="text" id="updateItemColor" placeholder="yellow" />
+          <label>Item Price:</label>
+          <input type="text" id="updateItemPrice" placeholder="$10" />
+          <label>Item Size:</label>
+          <input type="text" id="updateItemSize" placeholder="M" />
+          <label>Item Stock:</label>
+          <input type="text" id="updateItemStock" placeholder="10" />
+          <label>Item Desc:</label>
+          <input type="text" id="updateItemDescription" placeholder="soft" />
+          <label>Item IMG:</label>
+          <input type="text" id="updateItemImage" placeholder="Yellow_T.png" />
+          <button id="adminUpdateItemBtn">Update Item</button>
+        </div>
+        <!-- Delete Item Section -->
+        <div>
+          <h3>Delete Item</h3>
+          <label>Enter Item ID</label>
+          <input type="text" id="deleteItemProductID" />
+          <button id="deleteItemBtn">Delete Item</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="footer1"></div>
+    </footer>
+    <script>
+      $(function () {
+        $("#header").load("NavBar.html .header"); // Load the header content
+        $("#footer1").load("NavBar.html .footer1"); // Load the footer content
+      });
+    </script>
+  </body>
+</html>

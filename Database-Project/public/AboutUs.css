@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  background: url(Images/FNF_AB_BG.jpeg);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.mainAB {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+
+  padding: 25px;
+  padding-left: 10%; 
+  padding-right: 10%; 
+  background-image: linear-gradient(
+    to right,
+    rgba(250, 235, 215, 0) 2%,
+    rgba(250, 235, 215, 0.8) 10%,
+    rgba(250, 235, 215, 0.8) 90%,
+    rgba(250, 235, 215, 0) 98%
+  );
+  border-radius: 15px;
+  margin: auto;
+  flex: 1; 
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.content1 {
+  width: 80%; 
+  margin: 0rem;
+  padding: 0 5%;
+  margin-bottom: 2rem; 
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mainAB {
+    width: 80%; 
+    padding-left: 3%; 
+    padding-right: 3%; 
+  }
+  .content1 {
+    padding-left: 3%;
+    padding-right: 3%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .mainAB {
+    width: 95%; 
+    padding-left: 1%; 
+    padding-right: 1%;
+    height: auto; 
+  }
+  .content1 {
+    padding-left: 1%; 
+    padding-right: 1%; 
+  }
+}
+
+/*footer {
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+*/

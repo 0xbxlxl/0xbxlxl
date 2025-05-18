@@ -1,0 +1,245 @@
+.account-options-panel {
+    /* existing styles */
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+.message-container{
+    color: green;
+}
+.account-option {
+    
+    
+    padding: 10px 20px;
+    border: 1px solid #ccc; /* Border color */
+    background-color: #fff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.account-option.active {
+    background-color: #007bff; /* Active state background color */
+    color: #fff; /* Active state text color */
+}
+
+.account-option:hover:not(.active) {
+    background-color: #f0f0f0; /* Hover state background color */
+}
+
+.account-info-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.account-info-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.update-info-btn{
+    padding: 10px 20px;
+    background-color: brown; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    display: grid;
+    align-items: center;
+
+}
+
+.update-info-btn:hover {
+    background-color: darkred;
+}
+
+.user-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.user-info p strong {
+    font-weight: bold;
+}
+
+.cart-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.bannerCO1{
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.remove-item-btn {
+    cursor: pointer;
+    color: grey;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.bannerCO{
+    text-align: center;
+    font-family:verdana;
+    font-size: 45px;
+    padding: 15px;
+}
+.row {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+.col-25 {
+    -ms-flex: 25%; 
+    flex: 25%;
+  }
+  
+.col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=password], input[type=email], input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn-checkout {
+    background-color: brown;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn-checkout:hover {
+    background-color: darkred;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    /*float: right;*/
+    color: grey;
+    font-size: 20px;
+  }
+
+  .btn-checkout {
+    padding: 10px 20px;
+    background-color: brown; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+}
+
+.order-history-section {
+    margin-top: 20px;
+}
+
+.order-history-section h2 {
+    color: #333;
+}
+
+#order-history-list {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.remove-item-btn {
+    cursor: pointer;
+    color: grey;
+    margin-right: 10px;
+}
+
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+

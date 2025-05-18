@@ -1,0 +1,19 @@
+{% extends "genexpresso/base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <h1 class="loading-title">Brewing Your GEO Data... Please Hold the Foam! ☕</h1>
+{% endblock page_header %}
+
+{% block content %}
+<section class="main_container">
+    <video src="{% static 'video/espresso.mp4' %}" loop autoplay muted></video>
+    <p class="loading-text">This might take a few minutes...</p>
+</section>
+
+<!-- Hidden element to store dataset_id -->
+<div id="dataset-id" data-id="{{ dataset_id }}"></div>
+
+<!-- Load JavaScript file from static -->
+<script src="{% static 'js/loading.js' %}"></script>
+{% endblock content %}

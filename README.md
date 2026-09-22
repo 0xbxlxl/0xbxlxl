@@ -113,8 +113,8 @@ Currently, I am completing my Master’s thesis focusing on:
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=0xbxlxl&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xbxlxl&layout=compact&theme=radical&hide_border=true" height="160" alt="Top Languages"/>
+  <img src="https://streak-stats.demolab.com/?user=0xbxlxl&theme=radical&hide_border=true" height="165" alt="GitHub Streak"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=0xbxlxl&layout=compact&theme=radical&hide_border=true" height="165" alt="Top Languages"/>
 </div>
 
 ---

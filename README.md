@@ -1,92 +1,133 @@
-<!--
-  ╔══════════════════════════════════════════════╗
-  ║  Hey there, I’m 0xbxlxl! 🌟 Welcome!  ║
-  ╚══════════════════════════════════════════════╝
--->
+<div align="center">
 
-# Hi, I’m 0xbxlxl! 👋
+  <!-- Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,15,20&height=220&section=header&text=Bilal%20Kachir&fontSize=52&fontColor=ffffff&animation=fadeIn&subtext=Computational%20Biologist%20%7C%20Biomedical%20ML%20Researcher&subfontSize=20&subfontColor=d1d5db" width="100%" />
 
-<p align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajl3YmFhbG5neGY1MGxlcHlrbzg3aGRjaGRneTltcXY0ZXNmbTE3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VGuAZNdkPUpEY/giphy.gif" alt="Nyan Cat HD Banner" width="100%" />
-</p>
+  <p align="center">
+    <strong>MSc Bioinformatics & Computational Biology</strong> @ <a href="https://www.uni-goettingen.de/">Georg-August-Universität Göttingen</a> 🇩🇪<br/>
+    BSc Biology (Bioinformatics Minor) @ University of Detroit Mercy 🇺🇸
+  </p>
 
+  <p align="center">
+    <a href="https://linkedin.com/in/bilal-kachir-b7729b269"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="mailto:Bilalkachir00@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://twitter.com/0xbxlxl"><img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter"/></a>
+    <a href="https://github.com/0xbxlxl"><img src="https://img.shields.io/badge/GitHub-0xbxlxl-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  </p>
 
-## About Me
-I’m an aspiring bioinfmormatician from Lebanon currently residing in Germany, who loves:
-- 🎨 Crafting elegant code & beautiful UIs
-- 🤖 Exploring AI, machine learning, and the future in bioinformatics
-- 🚀 Learning about cutting-edge tech
-- ☕ Fueling creativity with strong coffee!
+  <p align="center">
+    🎯 <em>Master's Thesis submission: February 2027 • Available for PhD & Industry roles starting March 2027</em>
+  </p>
 
-> “The only way to do great work is to love what you do.”  
-> — Steve Jobs
-
----
-
-## 🛠 Things I Code With
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+</div>
 
 ---
 
-## 🎓 Academic Work & Projects
+### 🧬 About Me
 
-Welcome to my public repository! Here you’ll find a curated selection of my previous academic work and projects, including:
- 
-- Course assignments showcasing key learnings and skills  
-- Projects
-- Sample code and data analyses  
+I am a computational biologist and biomedical machine learning researcher based in Göttingen, Germany. My work bridges **wet-lab biological intuition** (rooted in my BSc in Biology) with **large-scale machine learning, single-cell transcriptomics, and high-performance computing**.
 
-Feel free to explore the folders to learn more about my work and download any resources you’d like!
+Currently, I am completing my Master’s thesis focusing on:
+- **Metacell Modeling at Scale**: Processing high-throughput single-cell RNA-seq datasets (754k single cells across 49 cell lines aggregated to ~25k metacells via `SEACells` / `Scanpy`).
+- **Geometric Deep Learning**: Implementing custom sparse Graph Neural Networks (`PyTorch`, `GCN`, `GraphSAGE`) coupled with biological prior graphs (`STRING v12.0 PPI networks`) for drug response prediction and transcriptomic transfer learning.
+- **Reproducible Pipelines**: High-throughput distributed analysis on Linux HPC clusters leveraging parallel execution (`Bash`, `xargs`), sparse matrix formats (`H5AD`, `CSR`), and rootless containerization.
 
----
-
-## 🌱 Currently Learning
-
-- Deepening my understanding of **Pytorch** & **Scikit-learn**
-- Exploratory analysis of spatial transcriptomic data
+> *"Bridging high-dimensional genomics and geometric deep learning to understand cellular biology and disease mechanisms."*
 
 ---
 
-## 🎯 Goals for 2025
-- Contribute to academic research  
-- Gain Expertise in Pytorch & Deep Learning
-- Deepen my knowledge in bioinformatics  
+### 🔬 Core Research & Expertise
 
----
-
-## ✨ Fun Facts
-- I’ve lived in 🌍 4 countries (ask me about travel tales)!  
-- I love Karaoke 🎤   
-- My playlist is 50% Hip-Hop, 50% Queen, 100% fire 🔥  
-
----
-
-## 📫 How to Reach Me
 <table>
   <tr>
-    <td align="center">
-      <a href="mailto:Bilalkachir00@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
+    <td width="50%" valign="top">
+      <h4>🧬 Single-Cell & Spatial Omics</h4>
+      <ul>
+        <li><strong>scRNA-seq Workflows</strong>: Quality control, normalization, high-dimensional clustering & UMAP visualization (<code>Scanpy</code>, <code>AnnData</code>).</li>
+        <li><strong>Metacell Construction</strong>: Micro-state aggregation using <code>SEACells</code> on 750k+ cell atlases.</li>
+        <li><strong>Spatial Transcriptomics</strong>: 10x Visium analysis & digital tissue deconvolution.</li>
+      </ul>
     </td>
-    <td align="center">
-      <a href="https://twitter.com/0xbxlxl"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white" alt="Twitter"/></a>
+    <td width="50%" valign="top">
+      <h4>🧠 Biomedical Machine Learning</h4>
+      <ul>
+        <li><strong>Graph Neural Networks</strong>: Custom sparse <code>GCN</code> & <code>GraphSAGE</code> architectures for molecular and PPI network modeling.</li>
+        <li><strong>Deep Learning</strong>: <code>PyTorch</code>, custom autograd workflows, representation learning.</li>
+        <li><strong>Optimization</strong>: Bayesian Optimization (<code>BoTorch</code>), Gaussian Processes, and reinforcement learning (Soft Actor-Critic).</li>
+      </ul>
     </td>
-    <td align="center">
-      <a href="https://linkedin.com/in/bilal-kachir-b7729b269"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧪 Transcriptomics & NGS</h4>
+      <ul>
+        <li><strong>Bulk RNA-seq</strong>: End-to-end differential gene expression pipelines (<code>DESeq2</code>, <code>limma</code>, <code>edgeR</code>).</li>
+        <li><strong>Upstream Processing</strong>: QC, trimming, alignment, and count matrix generation.</li>
+        <li><strong>Functional Enrichment</strong>: Gene set enrichment analysis, pathway mapping (GO, KEGG, Reactome).</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ HPC & Scientific Computing</h4>
+      <ul>
+        <li><strong>Linux HPC</strong>: Distributed parallel batch processing (<code>Bash</code>, <code>xargs</code>, multi-core server management).</li>
+        <li><strong>Sparse Computation</strong>: High-efficiency manipulation of large AnnData structures and sparse tensor operations.</li>
+        <li><strong>Reproducibility</strong>: Git/GitHub versioning, Docker containerization, robust SQLite tracking.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 ---
 
-> “Stay curious, keep coding, and let’s build something amazing together!” 🚀
+### 🛠 Tech Stack & Tools
 
-<!--
-  ╔══════════════════════════════════════════════╗
-  ║     Thanks for dropping by! Now, go code!   ║
-  ╚══════════════════════════════════════════════╝
--->
+<p align="center">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <br/>
+  <!-- ML & Data Science -->
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"/>
+  <br/>
+  <!-- Bioinformatics & Genomics -->
+  <img src="https://img.shields.io/badge/Scanpy-AnnData-009688?style=for-the-badge&logo=dna&logoColor=white" alt="Scanpy"/>
+  <img src="https://img.shields.io/badge/Bioconductor-DESeq2-108040?style=for-the-badge" alt="Bioconductor"/>
+  <img src="https://img.shields.io/badge/Single--Cell-SEACells-3F51B5?style=for-the-badge" alt="Single-Cell"/>
+  <img src="https://img.shields.io/badge/STRING_PPI-Network_Biology-8E24AA?style=for-the-badge" alt="STRING"/>
+  <br/>
+  <!-- Environments & DevOps -->
+  <img src="https://img.shields.io/badge/Linux_HPC-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</p>
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=0xbxlxl&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xbxlxl&layout=compact&theme=radical&hide_border=true" height="160" alt="Top Languages"/>
+</div>
+
+---
+
+### ✨ Beyond the Terminal
+
+- 🌍 **Global Citizen**: Lived in 4 countries across North America, the Middle East, and Europe.
+- ☕ **High-Octane Brews**: Sustaining late-night training runs on double-shot espressos.
+- 🎧 **Music Rotation**: 50% Hip-Hop, 50% Queen, 100% fire.
+- 🎤 **Karaoke & Science Outreach**: Passionate about making complex genomics concepts accessible and engaging.
+
+---
+
+<div align="center">
+  <sub>Let's connect or collaborate on computational biology & biomedical ML! Reach out via <a href="mailto:Bilalkachir00@gmail.com">Email</a> or <a href="https://linkedin.com/in/bilal-kachir-b7729b269">LinkedIn</a>.</sub>
+</div>
